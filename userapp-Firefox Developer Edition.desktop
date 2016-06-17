@@ -6,7 +6,8 @@ Type=Application
 # NoDisplay=true
 # The icon could be a path or copy .png files to respective dirs in 
 # ~/.local/share/icons/
-Icon=aurora
+# Icon=aurora
+Icon=firefox-dev
 Exec=firefox-dev
 Name=Firefox Developer Edition
 GenericName=Web Browser
