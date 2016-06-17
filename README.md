@@ -1,8 +1,9 @@
 # Installation script for Firefox Developer Edition icons on Linux
 
-This will create a ~/.local/share/icons/hicolor directory and place the
-variously-sized png images and the corresponding directories to enable
-hicolor icons.
+This will create a `~/.local/share/icons/hicolor` directory and place the
+variously-sized png images and the corresponding directories there, to enable
+hicolor icons.  As far as I know, this should work on most, if not all,
+Linux distributions; however, it has been tested on RHEL7 (Gnome).
 
 Additionally, a ".desktop" file is placed in the local applications directory.
 

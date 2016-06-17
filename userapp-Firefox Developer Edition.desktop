@@ -7,11 +7,10 @@ Type=Application
 # The icon could be a path or copy .png files to respective dirs in 
 # ~/.local/share/icons/
 Icon=aurora
-Exec=/home/amel/firefox/firefox %u
+Exec=$HOME/firefox/firefox %u
 Name=Firefox Developer Edition
 GenericName=Web Browser
 Comment=Custom definition for Firefox Developer Edition
 StartupNotify=true
-# Categories=Network;WebBrowser;
 Categories=Applications;WebBrowser;
 X-Desktop-File-Install-Version=0.21
