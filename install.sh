@@ -24,6 +24,9 @@ cd $iconsdir
 mv ./*desktop $ldir
 # rm -f $iconsdir/install.sh
 
+[[ -d $HOME/bin ]] || mkdir $HOME/bin
+ln -s $HOME/firefox/firefox $HOME/bin/firefox-dev
+
 # test for Error codes
 if (( $? )); then echo failed; else echo OK; fi
 
