@@ -12,20 +12,13 @@
 # set -vx
 
 iconsdir=$HOME/.local/share/icons/hicolor
-ldir=$HOME/.local/share/applications
 
 [[ -d $iconsdir ]] || mkdir -p $iconsdir
 
 cp -r ./*x* $iconsdir
 
-[[ -d $ldir ]] || mkdir $ldir
-
 cd $iconsdir
-mv ./*desktop $ldir
 # rm -f $iconsdir/install.sh
-
-[[ -d $HOME/bin ]] || mkdir $HOME/bin
-ln -s $HOME/firefox/firefox $HOME/bin/firefox-dev
 
 # test for Error codes
 if (( $? )); then echo failed; else echo OK; fi
