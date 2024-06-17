@@ -1,8 +1,8 @@
 #!/bin/env bash
 
 ############################################################################
-# Installation script for Firefox Developer Edition icons on Linux
-# 
+# Installation script for Firefox icons on Linux
+#
 # This will create a ~/.local/share/icons directory and place the
 # variously-sized png images and the corresponding directories to enable
 # hicolor icons.
