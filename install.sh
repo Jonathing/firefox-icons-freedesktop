@@ -17,9 +17,6 @@ iconsdir=$HOME/.local/share/icons/hicolor
 
 cp -r ./*x* $iconsdir
 
-cd $iconsdir
-# rm -f $iconsdir/install.sh
-
 # test for Error codes
 if (( $? )); then echo failed; else echo OK; fi
 
