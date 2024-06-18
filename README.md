@@ -27,7 +27,7 @@ your file. The icon naming scheme reflects the update channel of the browser
 
 ### Example .desktop Usage
 
-```toml
+```desktop
 [Desktop Entry]
 Name=Firefox Developer Edition
 GenericName=Web Browser for Developers
